@@ -1,0 +1,102 @@
+#banner {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	padding: 150px 0;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 45px;
+	font-family: Chivo;
+	padding-top: 30vh;
+	margin: 0;
+}
+
+h2 {
+	color: white;
+	font-family: Chivo;
+}
+
+#main-subtitle {
+	color: white;
+	opacity: 0.7;
+	font-familiy: Overpass;
+	font-size: 24px;
+}
+
+#blue-button {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 20px;
+	background-color: #0D1EC6;
+	padding: 15px;
+	margin-top: 15px;
+	position: relative;
+	top: 15px;
+	border-radius: 9px;
+	font-weight: bold;
+}
+
+#blue-button:hover {
+	background-color: black;
+	transition: all ease-out;
+	transform: scale(1.1);
+}
+
+#subtitle {
+	font-family: Chivo;
+	color: #023047;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+#container {
+	display: flex;
+	flew-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	background-color: white;
+	width: 336px;
+	height: 292px;
+	box-shadow: 0 0 16px rgb(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 4px;
+	height: 180px;
+	object-fit: cover;
+}
+
+.card h3 {
+	color: #023047;
+	font-family: Chivo;
+	font-size: 24px;
+}
+
+.card p {
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
+}
+
+#footer {
+	height: 100px;
+	background-color: #FAE1DD;
+	color: #023047;
+	padding-top: 4%;
+	text-align: center;
+	margin-top: 40px;
+	font-family:  Overpass;
+}
